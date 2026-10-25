@@ -24,12 +24,12 @@ The level is stored per user account. If you set it on your phone or in a browse
 dotnet publish Jellyfin.Plugin.JellyBoost -c Release -o artifacts
 ```
 
-1. Copy `artifacts/Jellyfin.Plugin.JellyBoost.dll` into `<jellyfin data dir>/plugins/JellyBoost_1.0.0.0/`. The data dir is usually `/var/lib/jellyfin`, or `/config` in Docker.
+1. Copy `artifacts/Jellyfin.Plugin.JellyBoost.dll` into `<jellyfin data dir>/plugins/JellyBoost_1.0.1.0/`. The data dir is usually `/var/lib/jellyfin`, or `/config` in Docker.
 2. Restart Jellyfin.
 3. Open **Dashboard > Plugins > JellyBoost** to set the maximum boost, defaults and per-user levels.
 4. Reload the web client (or restart the mobile/desktop app) so the player button shows up.
 
-Requires Jellyfin 12.0 or newer (built against 12.3, .NET 10).
+Requires Jellyfin 12.0 or newer (built against 12.0, so it loads on any 12.x server; .NET 10).
 
 ## Limitations
 

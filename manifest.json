@@ -8,9 +8,17 @@
     "category": "General",
     "versions": [
       {
+        "version": "1.0.1.0",
+        "changelog": "Build against Jellyfin 12.0 so the plugin loads on every 12.x server.",
+        "targetAbi": "12.0.0.0",
+        "sourceUrl": "https://github.com/MelvilleJ/JellyBoost/releases/download/v1.0.1.0/jellyboost_1.0.1.0.zip",
+        "checksum": "32a72a9c644d0a08560823214d4e55bb",
+        "timestamp": "2026-10-25T02:30:00Z"
+      },
+      {
         "version": "1.0.0.0",
         "changelog": "Initial release.",
-        "targetAbi": "12.0.0.0",
+        "targetAbi": "12.3.0.0",
         "sourceUrl": "https://github.com/MelvilleJ/JellyBoost/releases/download/v1.0.0.0/jellyboost_1.0.0.0.zip",
         "checksum": "49ea35aaf59fb9f01e540d897b953168",
         "timestamp": "2026-10-24T22:04:00Z"
